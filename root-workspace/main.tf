@@ -1,5 +1,5 @@
 module "team_a" {
-    source  = "app.terraform.io/tfc4b-peyton/team-onboarding-module/tfe"
+    source  = "app.terraform.io/GitOpsLoop/team-onboarding-module/tfe"
     version = "1.0.2"
     # source = "./team_workspace_module"
     org_name = var.org_name
@@ -11,7 +11,7 @@ module "team_a" {
 }
 
 module "team_b" {
-    source  = "app.terraform.io/tfc4b-peyton/team-onboarding-module/tfe"
+    source  = "app.terraform.io/GitOpsLoop/team-onboarding-module/tfe"
     version = "1.0.2"
     # source = "./team_workspace_module"
     org_name = var.org_name
